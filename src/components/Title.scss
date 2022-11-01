@@ -1,0 +1,126 @@
+.wrapper {
+    position: absolute;
+    left: 47%;
+    top: 17%;
+    transform: translate(-50%, -50%);
+    width: 235px;
+    height: 70px;
+    vertical-align: center;
+    // white-space: nowrap;
+}
+
+@media screen and (max-width: 376px) and (min-width: 0px) {
+    .wrapper {
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 426px) and (min-width: 377px) {
+    .wrapper {
+        left: 63%;
+        vertical-align: center;
+    }
+}
+
+//html의 왼쪽 50% 위 25%에 배치, transform : 요소를 왼쪽에서 50퍼 위에서 50퍼 white-space는 연속공백을 하나로 합치고 한줄로
+
+.focus {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: Arial;
+    letter-spacing: 2px;
+    filter: blur(3px);
+    font-size: 65px;
+    // opacity: 0.6;
+    color: #96DEF2;
+}
+
+.m {
+    color: #4284ff;
+}
+
+.o1 {
+    color: #d80000;
+}
+
+.o2 {
+    color: #ffbb00;
+}
+
+.g {
+    color: #4284ff;
+}
+
+.l {
+    color: #009b0d;
+}
+
+.e {
+    color: #d80000;
+}
+
+//와퍼의 왼쪽 50퍼, 요소를 위에서 50퍼, 흐리게, 
+.mask {
+    position: absolute;
+    padding: 5%;
+    width: 200px;
+    height: 150px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 100px;
+    clip: rect(0px, 200px, 150px, 0px);
+    background:
+        linear-gradient(#96DEF2, #96DEF2 0) no-repeat,
+        linear-gradient(to right, #96DEF2, #96DEF2 0) no-repeat,
+        linear-gradient(to right, #96DEF2, #96DEF2 0) bottom left no-repeat,
+        //왼아래 위
+        linear-gradient(to right, #96DEF2, #96DEF2 0) bottom left no-repeat,
+        //왼아래 아래
+        linear-gradient(#96DEF2, #96DEF2 0) bottom right no-repeat,
+        linear-gradient(#96DEF2, #96DEF2 0) bottom right no-repeat,
+        linear-gradient(#96DEF2, #96DEF2 0) top right no-repeat,
+        //오른쪽 위 왼
+        linear-gradient(#96DEF2, #96DEF2 0) top right no-repeat;
+    //오른쪽 위 오
+    background-size: 30px 5px, 5px 30px, 5px 30px, 30px 5px, 5px 30px, 30px 5px, 30px 5px, 5px 30px, 30px 5px;
+    color: #3CA2BD;
+    transform: translateX(-30px);
+    box-sizing: border-box;
+    animation: mask linear 3s infinite alternate;
+}
+
+@media screen and (max-width: 426px) and (min-width: 377px) {
+    .mask {
+        width: 120px;
+        height: 120px;
+        padding: 5%;
+        font-size: 79px;
+        clip: rect(0px, 125px, 127px, 0px);
+    }
+}
+
+//와퍼의 -5px 위-2px 
+//***clip***요소의 특정부분만 나오게 하는 효과 rect안쪽 (위를기준 시작, 왼쪽을 기준 끝, 위를 기준끝, 왼쪽 기준
+.text {
+    transform: translateX(30px);
+    animation: text linear 3s infinite alternate;
+}
+
+@media screen and (max-width: 426px) and (min-width: 377px) {
+    .text {
+        transform: translateX(30px);
+    }
+}
+
+@keyframes mask {
+    to {
+        transform: translateX(180px);
+    }
+}
+
+@keyframes text {
+    to {
+        transform: translateX(-180px);
+    }
+}
