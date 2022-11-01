@@ -44,6 +44,11 @@
 - 도움이 될 만한 코드의 예제 실습 후, 참고 사항으로 커밋 예정
 
 ## 4. 프로젝트 상세 내용
+
+<div align='center'>
+
 |구현 화면|
 |---|
-![toy1 (1)](https://user-images.githubusercontent.com/104360734/199232531-c7a694f3-5550-419e-8f71-61cc59db8d2e.gif)
+![toy1 (1)](https://user-images.githubusercontent.com/104360734/199233053-4c613f6d-4756-449d-889b-b0607614151d.gif)
+
+</div>
