@@ -1,4 +1,3 @@
-# AI School Toy Team Project
 ## 1. About Team
 - Team Leader
   - 한형진 - `README Writer`
@@ -14,15 +13,19 @@
 
 ## 2. Tech & Edit Tool
 - Front-End
-  - [<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white">](https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Getting_started)&nbsp;
-  - [<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white">](https://developer.mozilla.org/ko/docs/Web/CSS)&nbsp;
-  - [<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=424242">](https://developer.mozilla.org/ko/docs/Web/JavaScript)&nbsp;
-  - [<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black">](https://ko.reactjs.org/)
+  <br><br>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white">&nbsp;
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white">&nbsp;
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=424242">&nbsp;
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black">
 
 <br>
 
 - Edit Tool
-  - [<img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white">](https://code.visualstudio.com/?wt.mc_id=DX_841432)&nbsp;
+  <br><br>
+  <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white">&nbsp;
+
+<br><br>
 
 ## 3. Project Management (22.07.25 ~ 22.07.28)
 - VS Code를 통한 `GitHub`와의 `Clone` 후 작업
@@ -42,6 +45,8 @@
 <br>
 
 - 도움이 될 만한 코드의 예제 실습 후, 참고 사항으로 커밋 예정
+
+<br><br>
 
 ## 4. 프로젝트 상세 내용
 
